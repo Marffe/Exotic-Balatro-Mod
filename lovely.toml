@@ -1,0 +1,17 @@
+[manifest]
+version = "1.0.0"
+dump_lua = true
+priority = 12
+
+# Strategist Deck - Bonus Pack Choice
+[[patches]]
+[patches.pattern]
+target = 'card.lua'
+pattern = '''if self.cost > 0 then'''
+position = 'before'
+payload = '''
+if G.GAME.strategist_bonus_pack then 
+    G.GAME.pack_choices = G.GAME.pack_choices + 1
+end
+'''
+match_indent = true
