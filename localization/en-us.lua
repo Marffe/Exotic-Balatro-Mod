@@ -101,10 +101,10 @@ return {
             j_exotic_supportive_joker = {
                 name = "Suportive Joker",
                 text = {
-                    "Gain {C:blue}+2{} Chips for",
+                    "Gain {C:blue}+#1#{} Chips for",
                     "each {C:attention}unscored{} card",
                     "in played hand",
-                    "{C:inactive}(Currently {C:blue}+0{} {C:inactive}Chips)"
+                    "{C:inactive}(Currently {C:blue}+#2#{} {C:inactive}Chips)"
                 },
             },
             -- Lucky Clover
