@@ -54,8 +54,8 @@ return {
             j_exotic_perfected_gem = {
                 name = "Perfected Gem",
                 text = {
-                    "{C:diamonds}Diamonds{} give {X:red,C:white}x#4#{} Mult when",
-                    "scored increases by {X:red,C:white}x#2#{} for",
+                    "{C:diamonds}Diamonds{} give {X:red,C:white}X#4#{} Mult when",
+                    "scored increases by {X:red,C:white}X#2#{} for",
                     "every {C:money}$#3#{} you have",
                 },
             },
@@ -81,18 +81,18 @@ return {
             j_exotic_power_spike = {
                 name = "Power Spike",
                 text = {
-                    "Gain {X:red,C:white}x#1#{} mult for",
+                    "Gain {X:red,C:white}X#1#{} mult for",
                     "each {C:attention}Mult Card{} in",
                     "played hand",
-                    "{C:inactive}(Currently {X:red,C:white}x#2#{} {C:inactive}mult)"
+                    "{C:inactive}(Currently {X:red,C:white}X#2#{} {C:inactive}mult)"
                 },
             },
             -- Cooler Joker
             j_exotic_cooler_joker = {
                 name = "Cooler Joker",
                 text = {
-                    "{C:red}+#2#{} mult,",
-                    "gain {C:red}+#1#{} if the",
+                    "{C:red}+#2#{} Mult,",
+                    "gain {C:red}+#1#{} Mult if the",
                     "{C:attention}score{} catches fire",
                     "{C:inactive}(Currently {C:red}+#2#{} {C:inactive}mult)"
                 },
