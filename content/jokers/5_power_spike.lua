@@ -1,7 +1,7 @@
 SMODS.Joker {
     key = "power_spike", atlas = "joker_atlas", pos = { x = 1, y = 0 }, -- Uncommon
 
-    blueprint_compat = true, eternal_compat = true, perishable_compat = true,
+    blueprint_compat = true, eternal_compat = true, perishable_compat = false,
     rarity = 2, cost = 6, discovered = true, unlocked = true,
 
     config = { extra = { xmult = 1, xmult_mod = 0.1 } },

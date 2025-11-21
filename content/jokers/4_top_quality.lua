@@ -1,7 +1,7 @@
 SMODS.Joker {
     key = "top_quality", atlas = "joker_atlas", pos = { x = 2, y = 0 }, -- Rare
 
-    blueprint_compat = true, eternal_compat = true, perishable_compat = true,
+    blueprint_compat = true, eternal_compat = true, perishable_compat = false,
     rarity = 3, cost = 8, discovered = true, unlocked = true,
 
     config = { extra = { mult = 0, mult_mod = 10 } },

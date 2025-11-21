@@ -1,7 +1,7 @@
 SMODS.Joker {
     key = "rope", atlas = "joker_atlas", pos = { x = 2, y = 0 }, -- Rare
 
-    blueprint_compat = true, eternal_compat = true, perishable_compat = true,
+    blueprint_compat = true, eternal_compat = true, perishable_compat = false,
     rarity = 3, cost = 5, discovered = true, unlocked = true,
 
     config = { extra = { chipsgain = 50, chips = 50 }, },

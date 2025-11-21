@@ -1,7 +1,7 @@
 SMODS.Joker {
     key = "cooler_joker", atlas = "joker_atlas", pos = { x = 0, y = 0 }, -- Common
 
-    blueprint_compat = true, eternal_compat = true, perishable_compat = true,
+    blueprint_compat = true, eternal_compat = true, perishable_compat = false,
     rarity = 1, cost = 4, discovered = true, unlocked = true,
 
     config = { extra = { mult = 3, cooler_mult = 3 } },

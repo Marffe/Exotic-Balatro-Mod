@@ -17,9 +17,10 @@ return {
                 text = {
                     "Creates a random",
                     "consumable when opening",
-                    "a {C:attention}Booster Pack{}",
-                    "consumables dont appear",
-                    "in the shop"
+                    "{C:attention}Booster Packs{}.",
+                    "",
+                    "{C:attention}Booster Packs{}",
+                    "are randomized"
                 },
             },
             -- 3 Deck of Fortune
@@ -91,15 +92,15 @@ return {
             j_exotic_cooler_joker = {
                 name = "Cooler Joker",
                 text = {
-                    "{C:red}+#2#{} Mult,",
-                    "gain {C:red}+#1#{} Mult if the",
-                    "{C:attention}score{} catches fire",
+                    "{C:red}+#2#{} mult,",
+                    "gain {C:red}+#1#{} if the",
+                    "{C:attention}score{} catches {C:red,E:1}fire{}",
                     "{C:inactive}(Currently {C:red}+#2#{} {C:inactive}mult)"
                 },
             },
-            -- Suportive Joker
+            -- Supportive Joker
             j_exotic_supportive_joker = {
-                name = "Suportive Joker",
+                name = "Supportive Joker",
                 text = {
                     "Gain {C:blue}+#1#{} Chips for",
                     "each {C:attention}unscored{} card",
@@ -111,17 +112,20 @@ return {
             j_exotic_lucky_clover = {
                 name = "Lucky Clover",
                 text = {
-                    "Played {C:clubs}Club{} {C:attention}Flushes{}",
-                    "have a {C:green}1 in 4{} chance of",
-                    "creating a {C:attention}Magician{} {C:tarot}tarot{} card",
+                    "{C:clubs}Club{} {C:attention}Flushes{} have",
+                    "{C:green}#1# in #2#{} chance of",
+                    "creating {C:Tarot}The Magician{}",
                 },
             },
             -- Upper Management
             j_exotic_upper_management = {
                 name = "Upper Management",
                 text = {
-                    "{C:blue}+40{} Chips and {C:red}+8{} Mult.",
-                    "First hand is {C:red}debuffed{}",
+                    "{C:blue}+#1#{} Chips and {C:red}+#2#{} Mult, played",
+                    "cards are {C:red}debuffed{} until",
+                    "you have only {C:attention}1{} hand",
+                    "{C:inactive,s:0.8}(Resets debuff after the Boss Blind{}",
+                    "{C:inactive,s:0.8}or when you sell this Joker){}"
                 },
             },
             -- Customer Benefits
@@ -129,7 +133,7 @@ return {
                 name = "Customer Benefits",
                 text = {
                     "Gain a free {C:green}reroll{}",
-                    "every {C:money}15${} {C:inactive}(0/15){} spend",
+                    "every {C:money}#1#${} {C:inactive}(#2#/15){} spend",
                 },
             },
         },
@@ -146,7 +150,9 @@ return {
         dictionary = {
             exotic_bust_upgrade = "Upgrade",
             exotic_top_qaulity_upgrade = "Best Product!",
-            exotic_electric_upgrade = "Zap!"
+            exotic_electric_upgrade = "Zap!",
+            exotic_lucky_clover = "Lucky",
+            exotic_customer_benefits = "Offer!"
         },
         -- labels = {}, -- Labels for the Card types and rarities In Game
         -- poker_hand_descriptions = {},
