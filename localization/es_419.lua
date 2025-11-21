@@ -132,7 +132,7 @@ return {
             },
             -- Customer Benefits
             j_exotic_customer_benefits = {
-                name = "{s:0,8}Beneficios de Consumidor{}",
+                name = "Beneficios de Consumidor",
                 text = {
                     "Ganas una {C:green}Renovación{}",
                     "de la tienda cada",
