@@ -140,18 +140,18 @@ return {
             },
             -- Substitution
             j_exotic_substitution = {
-                name = "Substitution",
+                name = "Relevo",
                 text = {
-                    "",
-                    "",
+                    "Al {C:red}descartar{} {C:attention}1{} carta sacas",
+                    "una carta de la {C:attention}categoría más común{}",
                 },
             },
             -- Fishing rod
             j_exotic_fishing_rod = {
-                name = "Fishing rod",
+                name = "Caña de pescar",
                 text = {
-                    "",
-                    "",
+                    "Prob. de {C:green}#1# en #2#{} de tomar",
+                    "una carta de los {C:attention}Paquetes Potenciadores{}",
                 },
             },
             -- Tree Plum

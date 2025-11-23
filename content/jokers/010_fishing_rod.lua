@@ -37,14 +37,12 @@ SMODS.Joker {
                                 G.playing_card = (G.playing_card and G.playing_card + 1) or 1
                                 selected_card.playing_card = G.playing_card
                                 table.insert(G.playing_cards, selected_card)
-                                
                                 -- Move to deck
                                 draw_card(G.pack_cards, G.deck, 90, 'up', nil, selected_card)
                                 SMODS.calculate_context({ playing_card_added = true, cards = { selected_card } })
-                                
                                 can_add = true
                             else
-                                -- Consumables (Tarot, Planet, Spectral, etc.)
+                                -- Consumables
                                 if #G.consumeables.cards < G.consumeables.config.card_limit then
                                     draw_card(G.pack_cards, G.consumeables, 90, 'up', nil, selected_card)
                                     can_add = true
