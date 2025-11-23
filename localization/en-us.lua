@@ -123,9 +123,8 @@ return {
                 text = {
                     "{C:blue}+#1#{} Chips and {C:red}+#2#{} Mult, played",
                     "cards are {C:red}debuffed{} until",
-                    "you have only {C:attention}1{} hand",
-                    "{C:inactive,s:0.8}(Resets debuff after the Boss Blind{}",
-                    "{C:inactive,s:0.8}or when you sell this Joker){}"
+                    "you win the {C:attention}Ante{}",
+                    "{C:inactive,s:0.8}(Removes the debuff if you sell it{}",
                 },
             },
             -- Customer Benefits
@@ -140,40 +139,47 @@ return {
             j_exotic_substitution = {
                 name = "Substitution",
                 text = {
-                    "",
-                    "",
+                    "{C:red}Discarding{} {C:attention}1{} card draws",
+                    "your most common rank",
                 },
             },
             -- Fishing rod
             j_exotic_fishing_rod = {
                 name = "Fishing rod",
                 text = {
-                    "",
-                    "",
+                    "{C:green}1 in 4{} chance to grab",
+                    "a random card when opening",
+                    "a booster pack",
+                    "{C:inactive}(Must have room){}",
                 },
             },
             -- Tree Plum
             j_exotic_tree_plum = {
                 name = "Tree Plum",
                 text = {
-                    "",
-                    "",
+                    "Gain a random {C:Tarot}Tarot{} card",
+                    "at the start of the round",
+                    "for the next 4 rounds",
+                    "{C:inactive}(Must have room){}",
                 },
             },
             -- Ash Urn
             j_exotic_ash_urn = {
                 name = "Ash Urn",
                 text = {
-                    "",
-                    "",
+                    "Gain Chips equeal to the",
+                    "rank of destroyed Cards",
+                    "{C:inactive}(Currently {C:blue}+0{} {C:inactive}Chips)"
                 },
             },
             -- Anomalous Lecture
             j_exotic_ = {
                 name = "Anomalous Lecture",
                 text = {
-                    "",
-                    "",
+                    "When selecting a {C:attention},",
+                    "{C:red}destroy{} a {C:planet}Planet{} card",
+                    "and gain his {C:blue}Chips{} or {C:red}Mult{}",
+                    "{C:inactive}(Currently {C:blue}+0{} {C:inactive}Chips and {C:red}+0{} {C:inactive}Mult)"
                 },
             },
         },

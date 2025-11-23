@@ -125,9 +125,8 @@ return {
                 text = {
                     "{C:blue}+#1#{} Fichas y {C:red}+#2#{} Multi, las",
                     "cartas anotadas se {C:red}debilitan{}",
-                    "hasta que te quede {C:attention}1{} mano",
-                    "{C:inactive,s:0.8}(Se reinicia después de la Ciega Jefe{}",
-                    "{C:inactive,s:0.8}o al vender este comodín){}"
+                    "hasta que ganes la {C:attention}Apuesta{}",
+                    "{C:inactive,s:0.8}(Se remueve la debilitación al venderse{}",
                 },
             },
             -- Customer Benefits
