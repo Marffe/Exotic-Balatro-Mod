@@ -36,6 +36,26 @@ return {
                     "{C:red,E:2}fail{} to activate",
                 },
             },
+            -- 4 Spiked Deck
+            b_exotic_spiked_deck = {
+                name = "Spiked Deck",
+                text = {
+                    "Gain 2 copies of",
+                    "{C:tarot}The Hanged Man{} after",
+                    "defeating the {C:attention}Boss Blind{}"
+                },
+            },
+            -- 5 Baraja del Obelisco
+            b_exotic_obelisk_deck = {
+                name = "Obelisk Deck",
+                text = {
+                    "Gain {X:red,C:white}X0.1{} Mult when you don't play",
+                    "consecutive hands and lose",
+                    "half of your {X:red,C:white}XMult{} when you",
+                    "play a consecutive hand",
+                    "{C:red}X1.5{} Blind size"
+                },
+            },
         },
         -- Blind = {},
         -- Edition = {},

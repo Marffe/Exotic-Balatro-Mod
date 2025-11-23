@@ -37,6 +37,26 @@ return {
                     "activarse sin {C:red,E:2}efectos{}",
                 },
             },
+            -- 4 Baraja de Espinas
+            b_exotic_spiked_deck = {
+                name = "Baraja de Espinas",
+                text = {
+                    "Obtienes 2 Copias del {C:tarot}Colgado",
+                    "al derrotar la {C:attention}Ciega Jefe{}"
+                },
+            },
+            -- 5 Baraja del Obelisco
+            b_exotic_obelisk_deck = {
+                name = "Baraja del Obelisco",
+                text = {
+                    "Ganas {X:red,C:white}X0.1{} Multi por mano",
+                    "no consecutiva jugada.",
+                    "Pierdes la mitad de tu {X:red,C:white}XMulti{}",
+                    "al jugar una mano",
+                    "de forma consecutiva",
+                    "{C:red}X1.5{} al tamaño de Ciega"
+                },
+            },
         },
         -- Blind = {},
         -- Edition = {},
@@ -116,7 +136,7 @@ return {
                 text = {
                     "Jugar un {C:attention}Color{} de {C:clubs}Tréboles{}",
                     "tiene una prob. de {C:green}#1# en #2#{}",
-                    "de crear a {C:Tarot}El Mago{}",
+                    "de crear a {C:tarot}El Mago{}",
                 },
             },
             -- Upper Management
@@ -143,24 +163,25 @@ return {
                 name = "Relevo",
                 text = {
                     "Al {C:red}descartar{} {C:attention}1{} carta sacas",
-                    "una carta de la {C:attention}categoría más común{}",
-                    "en tu {C:attention}Baraja{}"
+                    "una carta de la {C:attention}categoría más",
+                    "{C:attention}común{} en tu {C:attention}Baraja{}"
                 },
             },
             -- Fishing rod
             j_exotic_fishing_rod = {
                 name = "Caña de pescar",
                 text = {
-                    "Prob. de {C:green}#1# en #2#{} de tomar",
-                    "una carta de los {C:attention}Paquetes Potenciadores{}",
+                    "Prob. de {C:green}#1# en #2#{} de",
+                    "tomar una carta de los",
+                    "{C:attention}Paquetes Potenciadores{}"
                 },
             },
             -- Tree Plum
             j_exotic_tree_plum = {
                 name = "Ciruela de Árbol",
                 text = {
-                    "Al seleccionar una {C:attention}Ciega{}, llena",
-                    "tus consumibles con cartas del {C:tarot}Tarot{}",
+                    "Al seleccionar una {C:attention}Ciega{}, llena tus",
+                    "consumibles con cartas del {C:tarot}Tarot{}",
                     "por las siguientes {C:attention}4{} rondas"
                 },
             },
@@ -174,11 +195,11 @@ return {
                 },
             },
             -- Anomalous Lecture
-            j_exotic_ = {
+            j_exotic_anomalous_lecture = {
                 name = "Lectura Ánomala",
                 text = {
-                    "Al seleccionar una {C.attention}Ciega{},",
-                    "{C:red}destruye{} una carta de {C:planet}Planet{}",
+                    "Al seleccionar una {C:attention}Ciega{},",
+                    "{C:red}destruye{} una carta de {C:planet}Planeta{}",
                     "y gana sus {C:blue}Fichas{} o {C:red}Multi{}",
                     "{C:inactive}(Actualmente {C:blue}+0{} {C:inactive}Fichas y {C:red}+0{} {C:inactive}Multi)"
                 },
