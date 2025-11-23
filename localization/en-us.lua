@@ -173,7 +173,7 @@ return {
                 },
             },
             -- Anomalous Lecture
-            j_exotic_ = {
+            j_exotic_anomalous_lecture = {
                 name = "Anomalous Lecture",
                 text = {
                     "When selecting a {C:attention},",
