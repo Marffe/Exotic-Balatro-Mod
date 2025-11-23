@@ -135,22 +135,22 @@ return {
                     "every {C:money}#1#${} {C:inactive}(#2#/15){} spend",
                 },
             },
+            -- Fishing rod
+            j_exotic_fishing_rod = {
+                name = "Fishing rod",
+                text = {
+                    "{C:green}#1# in #2#{} chance to grab",
+                    "a random card when",
+                    "opening a booster pack",
+                    "{C:inactive}(Must have room){}",
+                },
+            },
             -- Substitution
             j_exotic_substitution = {
                 name = "Substitution",
                 text = {
                     "{C:red}Discarding{} {C:attention}1{} card draws",
                     "your most common rank",
-                },
-            },
-            -- Fishing rod
-            j_exotic_fishing_rod = {
-                name = "Fishing rod",
-                text = {
-                    "{C:green}1 in 4{} chance to grab",
-                    "a random card when opening",
-                    "a booster pack",
-                    "{C:inactive}(Must have room){}",
                 },
             },
             -- Tree Plum
@@ -198,7 +198,8 @@ return {
             exotic_top_qaulity_upgrade = "Best Product!",
             exotic_electric_upgrade = "Zap!",
             exotic_lucky_clover = "Lucky",
-            exotic_customer_benefits = "Offer!"
+            exotic_customer_benefits = "Offer!",
+            exotic_fished_card = "Catched!",
         },
         -- labels = {}, -- Labels for the Card types and rarities In Game
         -- poker_hand_descriptions = {},
