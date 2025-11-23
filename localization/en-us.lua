@@ -136,6 +136,46 @@ return {
                     "every {C:money}#1#${} {C:inactive}(#2#/15){} spend",
                 },
             },
+            -- Substitution
+            j_exotic_substitution = {
+                name = "Substitution",
+                text = {
+                    "",
+                    "",
+                },
+            },
+            -- Fishing rod
+            j_exotic_fishing_rod = {
+                name = "Fishing rod",
+                text = {
+                    "",
+                    "",
+                },
+            },
+            -- Tree Plum
+            j_exotic_tree_plum = {
+                name = "Tree Plum",
+                text = {
+                    "",
+                    "",
+                },
+            },
+            -- Ash Urn
+            j_exotic_ash_urn = {
+                name = "Ash Urn",
+                text = {
+                    "",
+                    "",
+                },
+            },
+            -- Anomalous Lecture
+            j_exotic_ = {
+                name = "Anomalous Lecture",
+                text = {
+                    "",
+                    "",
+                },
+            },
         },
         -- Other = { -- Seals -- Stickers -- Boosterpacks -- Undiscovered },
         -- vremade_Planet = { -- If you're making regular Planets the key will be "Planet" }, -- Custom Planets
