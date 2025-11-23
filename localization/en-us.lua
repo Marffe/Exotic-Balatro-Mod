@@ -157,9 +157,9 @@ return {
             j_exotic_tree_plum = {
                 name = "Tree Plum",
                 text = {
-                    "Gain a random {C:Tarot}Tarot{} card",
+                    "Gain a random {C:tarot}Tarot{} card",
                     "at the start of the round",
-                    "for the next 4 rounds",
+                    "for the next {C:attention}4{} rounds",
                     "{C:inactive}(Must have room){}",
                 },
             },
@@ -167,8 +167,8 @@ return {
             j_exotic_ash_urn = {
                 name = "Ash Urn",
                 text = {
-                    "Gain Chips equeal to the",
-                    "rank of destroyed Cards",
+                    "Gain {C:blue}Chips{} equeal to the",
+                    "rank of {C:red}destroyed{} Cards",
                     "{C:inactive}(Currently {C:blue}+0{} {C:inactive}Chips)"
                 },
             },
@@ -176,7 +176,7 @@ return {
             j_exotic_anomalous_lecture = {
                 name = "Anomalous Lecture",
                 text = {
-                    "When selecting a {C:attention},",
+                    "When selecting a {C:attention}Blind{},",
                     "{C:red}destroy{} a {C:planet}Planet{} card",
                     "and gain his {C:blue}Chips{} or {C:red}Mult{}",
                     "{C:inactive}(Currently {C:blue}+0{} {C:inactive}Chips and {C:red}+0{} {C:inactive}Mult)"

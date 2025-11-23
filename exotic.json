@@ -5,5 +5,5 @@
   "description": "Blah Blah",
   "prefix": "exotic",
   "main_file": "exotic.lua",
-  "version": "0.0.83"
+  "version": "0.1.21"
 }
