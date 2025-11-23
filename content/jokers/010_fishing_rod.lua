@@ -1,8 +1,8 @@
 SMODS.Joker {
-    key = "fishing_rod", atlas = "joker_atlas", pos = { x = 0, y = 0 }, -- Common
+    key = "fishing_rod", atlas = "joker_atlas", pos = { x = 1, y = 0 }, -- Uncommon
 
     blueprint_compat = false, eternal_compat = true, perishable_compat = true,
-    rarity = 1, cost = 4, discovered = true, unlocked = true,
+    rarity = 2, cost = 6, discovered = true, unlocked = true,
 
     config = { extra = { odds = 4 } },
 
@@ -21,8 +21,7 @@ SMODS.Joker {
                         if G.pack_cards and #G.pack_cards.cards > 0 then
                             local random_index = pseudorandom('fishing_rod_pick', 1, #G.pack_cards.cards)
                             local selected_card = G.pack_cards.cards[random_index]
-
-                            -- Determine destination based on card type
+                            -- Check what type of card is being selected
                             local destination = nil
                             local can_add = false
 
