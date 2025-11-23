@@ -151,15 +151,17 @@ return {
                 text = {
                     "{C:red}Discarding{} {C:attention}1{} card draws",
                     "your most common rank",
+                    "in your {C:attention}Full Deck{}"
                 },
             },
             -- Tree Plum
             j_exotic_tree_plum = {
                 name = "Tree Plum",
                 text = {
-                    "Gain a random {C:tarot}Tarot{} card",
-                    "at the start of the round",
-                    "for the next {C:attention}4{} rounds",
+                    "Fill your consumables slots",
+                    "with {C:tarot}Tarot{} card when selecting",
+                    "a {C:attention}Blind{} for the",
+                    "next {C:attention}4{} rounds",
                     "{C:inactive}(Must have room){}",
                 },
             },

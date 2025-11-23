@@ -144,6 +144,7 @@ return {
                 text = {
                     "Al {C:red}descartar{} {C:attention}1{} carta sacas",
                     "una carta de la {C:attention}categoría más común{}",
+                    "en tu {C:attention}Baraja{}"
                 },
             },
             -- Fishing rod
@@ -156,26 +157,30 @@ return {
             },
             -- Tree Plum
             j_exotic_tree_plum = {
-                name = "Tree Plum",
+                name = "Ciruela de Árbol",
                 text = {
-                    "",
-                    "",
+                    "Al seleccionar una {C:attention}Ciega{}, llena",
+                    "tus consumibles con cartas del {C:tarot}Tarot{}",
+                    "por las siguientes {C:attention}4{} rondas"
                 },
             },
             -- Ash Urn
             j_exotic_ash_urn = {
-                name = "Ash Urn",
+                name = "Urna de Cenizas",
                 text = {
-                    "",
-                    "",
+                    "Gana las {C:blue}Fichas{} de las",
+                    "cartas {C:red}destruidas{}",
+                    "{C:inactive}(Actualmente {C:blue}+0{} {C:inactive}Fichas)"
                 },
             },
             -- Anomalous Lecture
             j_exotic_ = {
-                name = "Anomalous Lecture",
+                name = "Lectura Ánomala",
                 text = {
-                    "",
-                    "",
+                    "Al seleccionar una {C.attention}Ciega{},",
+                    "{C:red}destruye{} una carta de {C:planet}Planet{}",
+                    "y gana sus {C:blue}Fichas{} o {C:red}Multi{}",
+                    "{C:inactive}(Actualmente {C:blue}+0{} {C:inactive}Fichas y {C:red}+0{} {C:inactive}Multi)"
                 },
             },
         },
