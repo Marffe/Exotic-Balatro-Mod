@@ -54,7 +54,8 @@ return {
                     "half of your {X:red,C:white}XMult{} when you",
                     "play a consecutive hand",
                     "{C:red}X1.5{} Blind size",
-                    "{s:0.8,C:inactive}(Current Mult: {X:mult,C:white} X#2#){}"
+                    "{s:0.8,C:inactive}(Current Mult: {X:mult,C:white,s:0.8} X#2#{}{s:0.8,C:inactive})",
+                    "{s:0.8,C:inactive}(Last played Hand: #3#){}"
                 },
             },
         },
