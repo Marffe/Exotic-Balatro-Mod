@@ -183,7 +183,7 @@ return {
                     "Fill your consumables slots",
                     "with {C:tarot}Tarot{} card when selecting",
                     "a {C:attention}Blind{} for the",
-                    "next {C:attention}4{} rounds",
+                    "next {C:attention}#1#{} round#2#",
                     "{C:inactive}(Must have room){}",
                 },
             },

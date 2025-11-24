@@ -182,7 +182,7 @@ return {
                 text = {
                     "Al seleccionar una {C:attention}Ciega{}, llena tus",
                     "consumibles con cartas del {C:tarot}Tarot{}",
-                    "por las siguientes {C:attention}4{} rondas"
+                    "#3# la#2# siguiente#2# {C:attention}#1#{} ronda#2#"
                 },
             },
             -- Ash Urn
