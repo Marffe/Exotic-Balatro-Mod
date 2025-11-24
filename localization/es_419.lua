@@ -202,8 +202,8 @@ return {
                 text = {
                     "Al seleccionar una {C:attention}Ciega{},",
                     "{C:red}destruye{} una carta de {C:planet}Planeta{}",
-                    "y gana sus {C:blue}Fichas{} o {C:red}Multi{}",
-                    "{C:inactive}(Actualmente {C:blue}+0{} {C:inactive}Fichas y {C:red}+0{} {C:inactive}Multi)"
+                    "y gana {X:attention,C:white}X2{} sus {C:blue}Fichas{} o {C:red}Multi{}",
+                    "{C:inactive}(Actualmente {C:blue}+#1#{} {C:inactive}Fichas y {C:red}+#2#{} {C:inactive}Multi)"
                 },
             },
         },

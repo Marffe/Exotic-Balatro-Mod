@@ -202,8 +202,8 @@ return {
                 text = {
                     "When selecting a {C:attention}Blind{},",
                     "{C:red}destroy{} a {C:planet}Planet{} card",
-                    "and gain his {C:blue}Chips{} or {C:red}Mult{}",
-                    "{C:inactive}(Currently {C:blue}+0{} {C:inactive}Chips and {C:red}+0{} {C:inactive}Mult)"
+                    "and gain {X:attention,C:white}X2{} his {C:blue}Chips{} or {C:red}Mult{}",
+                    "{C:inactive}(Currently {C:blue}+#1#{} {C:inactive}Chips and {C:red}+#2#{} {C:inactive}Mult)"
                 },
             },
         },
