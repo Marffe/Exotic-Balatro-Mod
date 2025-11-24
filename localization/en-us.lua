@@ -193,7 +193,7 @@ return {
                 text = {
                     "Gain {C:blue}Chips{} equeal to the",
                     "rank of {C:red}destroyed{} Cards",
-                    "{C:inactive}(Currently {C:blue}+0{} {C:inactive}Chips)"
+                    "{C:inactive}(Currently {C:blue}+#1#{} {C:inactive}Chips)"
                 },
             },
             -- Anomalous Lecture

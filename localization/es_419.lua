@@ -182,7 +182,9 @@ return {
                 text = {
                     "Al seleccionar una {C:attention}Ciega{}, llena tus",
                     "consumibles con cartas del {C:tarot}Tarot{}",
-                    "#3# la#2# siguiente#2# {C:attention}#1#{} ronda#2#"
+                    "#3# la#2# siguiente#2# ronda#2#",
+                    "{C:inactive}(Rondas restantes: {C:attention}#1#{}{C:inactive})",
+                    "{C:inactive}(Debe haber espacio){}",
                 },
             },
             -- Ash Urn
@@ -191,7 +193,7 @@ return {
                 text = {
                     "Gana las {C:blue}Fichas{} de las",
                     "cartas {C:red}destruidas{}",
-                    "{C:inactive}(Actualmente {C:blue}+0{} {C:inactive}Fichas)"
+                    "{C:inactive}(Actualmente {C:blue}+#1#{} {C:inactive}Fichas)"
                 },
             },
             -- Anomalous Lecture
