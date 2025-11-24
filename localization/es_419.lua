@@ -220,7 +220,7 @@ return {
             exotic_top_qaulity_upgrade = "10/10",
             exotic_electric_upgrade = "¡Zap!",
             exotic_lucky_clover = "¡Suertudo!",
-            exotic_customer_benefits = "¡Oferta!"
+            exotic_customer_benefits = "¡Oferta!",
         },
         -- labels = {}, -- Labels for the Card types and rarities In Game
         -- poker_hand_descriptions = {},

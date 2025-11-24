@@ -53,7 +53,8 @@ return {
                     "consecutive hands and lose",
                     "half of your {X:red,C:white}XMult{} when you",
                     "play a consecutive hand",
-                    "{C:red}X1.5{} Blind size"
+                    "{C:red}X1.5{} Blind size",
+                    "{s:0.8,C:inactive}(Current Mult: {X:mult,C:white} X#2#){}"
                 },
             },
         },
