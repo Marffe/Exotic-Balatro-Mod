@@ -233,9 +233,9 @@ return {
                     "o {C:attention}volteados{}",
                 }
             },
-            -- Devil's Games
-            j_exotic_devils_games = {
-                name = "Juego perverso",
+            -- Blood Money
+            j_exotic_blood_money = {
+                name = "Dinero Sucio",
                 text = {
                     "Obtienes la carta del Tarot",
                     "{C:tarot}El colgado{} o {C:tarot}El diablo{}",

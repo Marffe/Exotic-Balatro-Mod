@@ -232,9 +232,9 @@ return {
                     "{C:red}debuffed{} or {C:attention}flipped{}",
                 }
             },
-            -- Devil's Games
-            j_exotic_devils_games = {
-                name = "Devil's Games",
+            -- Blood Money
+            j_exotic_blood_money = {
+                name = "Blood Money",
                 text = {
                     "Gain {C:tarot}The Hanged Man{}",
                     "or {C:tarot}The Devil{} every",

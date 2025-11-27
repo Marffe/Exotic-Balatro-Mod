@@ -1,5 +1,5 @@
 SMODS.Joker {
-    key = "devils_games", atlas = "joker_atlas", pos = { x = 1, y = 0 }, -- Uncommon
+    key = "blood_money", atlas = "joker_atlas", pos = { x = 1, y = 0 }, -- Uncommon
 
     blueprint_compat = true, eternal_compat = true, perishable_compat = true,
     rarity = 2, cost = 6, discovered = true, unlocked = true,
@@ -21,7 +21,7 @@ SMODS.Joker {
                     G.GAME.consumeable_buffer = G.GAME.consumeable_buffer + 1
                     
                     -- Randomly choose between The Hanged Man or The Devil
-                    local tarot_key = pseudorandom('devils_games') < 0.5 and 'c_hanged_man' or 'c_devil'
+                    local tarot_key = pseudorandom('blood_money') < 0.5 and 'c_hanged_man' or 'c_devil'
                     
                     return {
                         extra = {
