@@ -295,7 +295,7 @@ return {
                 text = {
                     "{C:mult}+#1#{} Multi si la mano",
                     "contiene un {C:attention}#2#{}",
-                    "{C:inactive}(La categoría cambia tras cada mano){}"
+                    "{C:inactive,s:0.8}(La categoría cambia tras cada mano){}"
                 }
             },
             -- Baseball Shirt

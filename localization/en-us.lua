@@ -294,7 +294,7 @@ return {
                 text = {
                     "{C:mult}+#1#{} Mult if hand",
                     "contains a {C:attention}#2#{}",
-                    "{C:inactive}(Rank cycles after each hand){}"
+                    "{C:inactive,s:0.8}(Rank cycles after each hand){}"
                 }
             },
             -- Baseball Shirt
