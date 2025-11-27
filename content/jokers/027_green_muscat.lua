@@ -4,7 +4,7 @@ SMODS.Joker {
     blueprint_compat = true, eternal_compat = true, perishable_compat = true,
     rarity = 1, cost = 4, discovered = true, unlocked = true,
 
-    config = { extra = { remaining = 3 } },
+    config = { extra = { remaining = 5 } },
 
     loc_vars = function(self, info_queue, card)
         return { vars = { card.ability.extra.remaining } }
