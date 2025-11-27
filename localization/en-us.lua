@@ -296,9 +296,9 @@ return {
                     "{C:inactive}(Rank cycles after each hand){}"
                 }
             },
-            -- Team Merch
-            j_exotic_team_merch = {
-                name = "Team Merch",
+            -- Baseball Shirt
+            j_exotic_baseball_shirt = {
+                name = "Baseball Shirt",
                 text = {
                     "{C:attention}#1#{} random cards change to the",
                     "{C:attention}suit{} of the first scored",

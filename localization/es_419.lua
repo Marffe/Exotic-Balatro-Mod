@@ -297,9 +297,9 @@ return {
                     "{C:inactive}(La categoría cambia tras cada mano){}"
                 }
             },
-            -- Team Merch
-            j_exotic_team_merch = {
-                name = "Mercancía de Equipo",
+            -- Baseball Shirt
+            j_exotic_baseball_shirt = {
+                name = "Camisa de Béisbol",
                 text = {
                     "{C:attention}#1#{} cartas al azar cambian al",
                     "{C:attention}palo{} de la primera carta",
