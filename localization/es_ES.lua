@@ -265,9 +265,9 @@ return {
             j_exotic_archeologic_finds = {
                 name = "Hallazgos Arqueológicos",
                 text = {
-                    "Si la primera carta jugada",
-                    "es de {C:attention}Piedra{}, crea una",
-                    "{C:attention}Etiqueta{} al azar"
+                    "Si la {C:attention}primera mano{} de la ronda",
+                    "tiene una {C:attention}Carta de Piedra{},",
+                    "obtienes una {C:attention}Etiqueta{}"
                 }
             },
             -- Movement Detector
@@ -294,7 +294,7 @@ return {
                 text = {
                     "{C:mult}+#1#{} Multi si la mano",
                     "contiene un {C:attention}#2#{}",
-                    "{C:inactive}(La categoría cambia tras cada mano){}"
+                    "{C:inactive,s:0.8}(La categoría cambia tras cada mano){}"
                 }
             },
             -- Baseball Shirt
@@ -329,8 +329,8 @@ return {
                 text = {
                     "Gana {C:money}$#1#{} por mano jugada",
                     "al final de la ronda.",
-                    "Prob. de {C:green}1 en #4#{} de empezar.",
-                    "con 1 {C:blue}mano{}",
+                    "Prob. de {C:green}1 en #4#{} de",
+                    "empezar con {C:attention}1{} {C:blue}mano{}",
                     "{C:inactive}(Se reinicia tras Ciega Jefe){}"
                 }
             },
@@ -338,9 +338,9 @@ return {
             j_exotic_vampiric_scepter = {
                 name = "Cetro Vampírico",
                 text = {
-                    "La {C:attention}primera{} carta jugada es",
-                    "{C:red}debilitada{} permanentemente.",
-                    "Gana {X:mult,C:white}X2{} sus {C:blue}Fichas{} como {C:red}Multi{}.",
+                    "Ganas {X:mult,C:white}X2{} veces las {C:blue}Fichas{} de la",
+                    "primera carta anotada como {C:red}Multi{}",
+                    "y es {C:red}debilitada{} para siempre",
                     "{C:inactive,s:0.8}({C:mult}+20{} {C:inactive}si no tiene rango){}",
                     "{C:inactive,s:0.8}(Actualmente {C:mult}+#1#{} {C:inactive}Multi){}"
                 }

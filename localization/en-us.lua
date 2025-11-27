@@ -264,9 +264,9 @@ return {
             j_exotic_archeologic_finds = {
                 name = "Archeologic Finds",
                 text = {
-                    "If first played card",
-                    "is {C:attention}Stone{}, create a",
-                    "random {C:attention}Tag{}"
+                    "If {C:attention}first hand{} of round",
+                    "contains a {C:attention}Stone Card{},",
+                    "create a random {C:attention}Tag{}"
                 }
             },
             -- Movement Detector
@@ -337,9 +337,9 @@ return {
             j_exotic_vampiric_scepter = {
                 name = "Vampiric Scepter",
                 text = {
-                    "{C:attention}First{} played card is",
-                    "permanently {C:red}debuffed{}.",
-                    "Gain {X:mult,C:white}X2{} its {C:blue}Chips{} as {C:red}Mult{}.",
+                    "Gain {X:mult,C:white}X2{} the {C:blue}Chips{} of the first",
+                    "scored card as {C:red}Mult{} and it",
+                    "is permanently {C:red}debuffed{}",
                     "{C:inactive,s:0.8}({C:mult}+20{} {C:inactive}if rankless){}",
                     "{C:inactive,s:0.8}(Currently {C:mult}+#1#{} {C:inactive}Mult){}"
                 }
