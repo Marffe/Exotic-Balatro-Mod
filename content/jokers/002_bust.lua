@@ -5,10 +5,22 @@ SMODS.Joker {
     rarity = 3, cost = 8, discovered = true, unlocked = true,
 
     config = { extra = { mult_mod = 3 } },
+    
     loc_vars = function(self, info_queue, card)
         info_queue[#info_queue + 1] = G.P_CENTERS.m_stone
         return { vars = { card.ability.extra.mult_mod } }
     end,
+    
+    in_pool = function(self)
+        -- Only appear in pool if there are stone cards in the deck
+        for _, v in pairs(G.playing_cards) do
+            if v.ability.effect == 'Stone Card' then
+                return true
+            end
+        end
+        return false
+    end,
+    
     calculate = function(self, card, context)
         if context.individual and context.cardarea == G.play and context.other_card and context.other_card.ability.effect == 'Stone Card' then
             context.other_card.ability.perma_mult = context.other_card.ability.perma_mult or 0

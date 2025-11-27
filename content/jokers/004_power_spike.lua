@@ -5,8 +5,19 @@ SMODS.Joker {
     rarity = 2, cost = 6, discovered = true, unlocked = true,
 
     config = { extra = { xmult = 1, xmult_mod = 0.1 } },
+    
     loc_vars = function(self, info_queue, card)
         return { vars = { card.ability.extra.xmult_mod, card.ability.extra.xmult } }
+    end,
+    
+    in_pool = function(self)
+        -- Only appear in pool if there are mult cards in the deck
+        for _, v in pairs(G.playing_cards) do
+            if v.config.center.key == "m_mult" then
+                return true
+            end
+        end
+        return false
     end,
     
     calculate = function(self, card, context) -- Here is where it checks for mult cards

@@ -45,7 +45,7 @@ return {
                     "defeating the {C:attention}Boss Blind{}"
                 },
             },
-            -- 5 Baraja del Obelisco
+            -- 5 Obelisk Deck
             b_exotic_obelisk_deck = {
                 name = "Obelisk Deck",
                 text = {
@@ -206,6 +206,144 @@ return {
                     "{C:inactive}(Currently {C:blue}+#1#{} {C:inactive}Chips and {C:red}+#2#{} {C:inactive}Mult)"
                 },
             },
+            -- Avalanche
+            j_exotic_avalanche = {
+                name = "Avalanche",
+                text = {
+                    "Scored cards also give",
+                    "the total {C:chips}Chips{} of the",
+                    "previous cards"
+                }
+            },
+            -- Spectral Call
+            j_exotic_spectral_call = {
+                name = "Spectral Call",
+                text = {
+                    "Gain {X:mult,C:white}X#1#{} Mult for every",
+                    "{C:spectral}Spectral{} card used",
+                    "{C:inactive}(#2# used, currently {X:mult,C:white}X#3#{C:inactive} Mult)"
+                }
+            },
+            -- Necklace
+            j_exotic_necklace = {
+                name = "Necklace",
+                text = {
+                    "{C:diamonds}Diamond{} cards can't be",
+                    "{C:red}debuffed{} or {C:attention}flipped{}",
+                }
+            },
+            -- Devil's Games
+            j_exotic_devils_games = {
+                name = "Devil's Games",
+                text = {
+                    "Gain {C:tarot}The Hanged Man{}",
+                    "or {C:tarot}The Devil{} every",
+                    "{C:attention}#1#{} rounds",
+                    "{C:inactive}(#2# rounds remaining)"
+                }
+            },
+            -- Wedding Card
+            j_exotic_wedding_card = {
+                name = "Wedding Card",
+                text = {
+                    "{X:mult,C:white}X#1#{} Mult if played",
+                    "hand contains a {C:attention}King{}",
+                    "and a {C:attention}Queen{}",
+                }
+            },
+            -- Bribe
+            j_exotic_bribe = {
+                name = "Bribe",
+                text = {
+                    "Disable the {C:attention}Boss Blind{} for {C:money}$#1#{}",
+                    "if you have at least {C:money}$#3#{}",
+                    "{C:inactive}(Increases by {C:money}$#2#{} {C:inactive}per use){}"
+                }
+            },
+            -- Archeologic Finds
+            j_exotic_archeologic_finds = {
+                name = "Archeologic Finds",
+                text = {
+                    "If first played card",
+                    "is {C:attention}Stone{}, create a",
+                    "random {C:attention}Tag{}"
+                }
+            },
+            -- Movement Detector
+            j_exotic_movement_detector = {
+                name = "Movement Detector",
+                text = {
+                    "Gain {C:mult}+#1#{} Mult for every",
+                    "{C:attention}retriggered{} card",
+                    "{C:inactive}(Currently {C:mult}+#2#{} {C:inactive}Mult)"
+                }
+            },
+            -- The Offerings
+            j_exotic_the_offerings = {
+                name = "The Offerings",
+                text = {
+                    "Create {C:tarot}The Death{} every",
+                    "{C:attention}#2#{} destroyed cards",
+                    "{C:inactive}(#1#/#2#){}"
+                }
+            },
+            -- Shift Change
+            j_exotic_shift_change = {
+                name = "Shift Change",
+                text = {
+                    "{C:mult}+#1#{} Mult if hand",
+                    "contains a {C:attention}#2#{}",
+                    "{C:inactive}(Rank changes every round){}"
+                }
+            },
+            -- Team Merch
+            j_exotic_team_merch = {
+                name = "Team Merch",
+                text = {
+                    "{C:attention}#1#{} random cards in your",
+                    "deck change to the {C:attention}suit{} of",
+                    "the first played card"
+                }
+            },
+            -- Jobless Joker
+            j_exotic_jobless_joker = {
+                name = "Jobless Joker",
+                text = {
+                    "Destroy played cards",
+                    "if they are {C:red}debuffed{}"
+                }
+            },
+            -- Green Muscat
+            j_exotic_green_muscat = {
+                name = "Green Muscat",
+                text = {
+                    "Get {C:tarot}The Chariot{} if a {C:attention}Glass{}",
+                    "card is destroyed",
+                    "{C:inactive}(#1# remaining){}"
+                }
+            },
+            -- Five Finger Fillet
+            j_exotic_five_finger_fillet = {
+                name = "Five Finger Fillet",
+                text = {
+                    "Gain {C:money}$#1#{} per played hand",
+                    "at end of round.",
+                    "{C:green}1 in #4#{} chance to start",
+                    "with 1 {C:blue}hand{}",
+                    "{C:inactive}(Resets after Boss Blind){}"
+                }
+            },
+            -- Vampiric Scepter
+            j_exotic_vampiric_scepter = {
+                name = "Vampiric Scepter",
+                text = {
+                    "{C:attention}First{} played card is",
+                    "permanently {C:red}debuffed{}.",
+                    "Gain {X:mult,C:white}X2{} its {C:blue}Chips{} as {C:red}Mult{}.",
+                    "{C:inactive,s:0.8}({C:mult}+20{} {C:inactive}if rankless){}",
+                    "{C:inactive,s:0.8}(Currently {C:mult}+#1#{} {C:inactive}Mult){}"
+                }
+            },
         },
         -- Other = { -- Seals -- Stickers -- Boosterpacks -- Undiscovered },
         -- vremade_Planet = { -- If you're making regular Planets the key will be "Planet" }, -- Custom Planets
@@ -224,6 +362,13 @@ return {
             exotic_lucky_clover = "Lucky",
             exotic_customer_benefits = "Offer!",
             exotic_fished_card = "Catched!",
+            exotic_active_ex = "Active!",
+            exotic_plus_tag = "Tag!",
+            exotic_upgrade_ex = "Upgrade!",
+            exotic_plus_tarot = "Tarot!",
+            exotic_reset = "Reset",
+            exotic_destroyed_ex = "Destroyed!",
+            exotic_oh_no = "Oh no!",
         },
         -- labels = {}, -- Labels for the Card types and rarities In Game
         -- poker_hand_descriptions = {},

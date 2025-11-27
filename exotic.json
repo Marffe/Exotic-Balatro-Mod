@@ -1,9 +1,11 @@
 {
   "id": "Exotic",
   "name": "Exotic",
-  "author": ["Marffe"],
-  "description": "Blah Blah",
+  "author": [
+    "Marffe"
+  ],
+  "description": "Exotic adds new Jokers, Decks and soon more to your Game!",
   "prefix": "exotic",
   "main_file": "exotic.lua",
-  "version": "0.2.0"
+  "version": "0.3.0"
 }
