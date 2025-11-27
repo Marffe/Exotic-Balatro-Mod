@@ -258,7 +258,8 @@ return {
                 text = {
                     "Desactiva la {C:attention}Ciega Jefe{} por {C:money}$#1#{}",
                     "si tienes al menos {C:money}$#3#{}",
-                    "{C:inactive}(Aumenta {C:money}$#2#{} {C:inactive}por uso){}"
+                    "{C:inactive,s:0.8}(El soborno y dinero requerido aumentan{}",
+                    "{C:inactive,s:0.8}en {C:money,s:0.8}$#2#{}{C:inactive,s:0.8} por cada uso){}"
                 }
             },
             -- Archeologic Finds

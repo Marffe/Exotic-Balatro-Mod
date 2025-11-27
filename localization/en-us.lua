@@ -257,7 +257,8 @@ return {
                 text = {
                     "Disable the {C:attention}Boss Blind{} for {C:money}$#1#{}",
                     "if you have at least {C:money}$#3#{}",
-                    "{C:inactive}(Increases by {C:money}$#2#{} {C:inactive}per use){}"
+                    "{C:inactive,s:0.8}(Bribe and money required increase{}",
+                    "{C:inactive,s:0.8}by {C:money,s:0.8}$#2#{}{C:inactive,s:0.8} per use){}"
                 }
             },
             -- Archeologic Finds
