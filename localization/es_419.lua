@@ -294,7 +294,7 @@ return {
                 text = {
                     "{C:mult}+#1#{} Multi si la mano",
                     "contiene un {C:attention}#2#{}",
-                    "{C:inactive}(Cambia de categoría cada ronda){}"
+                    "{C:inactive}(La categoría cambia tras cada mano){}"
                 }
             },
             -- Team Merch

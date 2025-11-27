@@ -293,7 +293,7 @@ return {
                 text = {
                     "{C:mult}+#1#{} Mult if hand",
                     "contains a {C:attention}#2#{}",
-                    "{C:inactive}(Rank changes every round){}"
+                    "{C:inactive}(Rank cycles after each hand){}"
                 }
             },
             -- Team Merch

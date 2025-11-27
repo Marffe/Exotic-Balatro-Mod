@@ -44,12 +44,6 @@ SMODS.Joker {
             local next_index = current_index + 1
             if next_index > #ranks then next_index = 1 end
             card.ability.extra.current_rank = ranks[next_index]
-            
-            return {
-                message = localize('exotic_reset'),
-                colour = G.C.RED,
-                card = card
-            }
         end
     end
 }
