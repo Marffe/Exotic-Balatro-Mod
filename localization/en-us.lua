@@ -300,9 +300,9 @@ return {
             j_exotic_team_merch = {
                 name = "Team Merch",
                 text = {
-                    "{C:attention}#1#{} random cards in your",
-                    "deck change to the {C:attention}suit{} of",
-                    "the first played card"
+                    "{C:attention}#1#{} random cards change to the",
+                    "{C:attention}suit{} of the first scored",
+                    "card this round"
                 }
             },
             -- Jobless Joker

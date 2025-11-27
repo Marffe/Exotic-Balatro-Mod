@@ -301,9 +301,9 @@ return {
             j_exotic_team_merch = {
                 name = "Mercancía de Equipo",
                 text = {
-                    "{C:attention}#1#{} cartas aleatorias de tu",
-                    "baraja cambian al {C:attention}palo{} de",
-                    "la primera carta jugada"
+                    "{C:attention}#1#{} cartas al azar cambian al",
+                    "{C:attention}palo{} de la primera carta",
+                    "anotada esta ronda"
                 }
             },
             -- Jobless Joker
